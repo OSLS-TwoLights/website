@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc \"Web Designer Notes.docx\" -o /tmp/web_designer_notes.md)",
+      "Bash(mkdir -p /Users/ymohammed/Desktop/Projects/Two-Lights/CustomSite/.claude)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
