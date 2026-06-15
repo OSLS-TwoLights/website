@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Two Lights Wealth Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+  <!-- ===== Lighthouse logo (reusable) — referenced via <use> ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="lighthouse" viewBox="0 0 32 40">
+      <path d="M13 13h6l1.4 21h-8.8L13 13z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M13 19h6M12.4 25h7.2M11.8 31h8.4" stroke="currentColor" stroke-width="1.1"/>
+      <path d="M12.4 13l1.2-3.4h4.8L19.6 13z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+      <rect x="13.6" y="5.4" width="4.8" height="4.2" fill="none" stroke="currentColor" stroke-width="1.3"/>
+      <path d="M14.6 5.4h2.8l-.6-2.2h-1.6l-.6 2.2z" fill="currentColor"/>
+      <path d="M13.6 7.5l-3 1.4M18.4 7.5l3 1.4" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+      <path d="M9 34.5h14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg class="logo-icon" width="26" height="32"><use href="#lighthouse"/></svg>
+        <span class="logo-text">
+          <span class="logo-name">TWO LIGHTS</span>
+          <span class="logo-tagline">WEALTH MANAGEMENT</span>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="who-we-serve.html">Who We Serve</a></li>
+        <li><a href="experience.html">The Experience</a></li>
+        <li><a href="signal-noise.html">Signal &amp; Noise</a></li>
+        <li><a href="team.html">Team &amp; Partners</a></li>
+        <li><a href="client-access.html">Client Access</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Let's Connect</a>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="ct-hero">
+    <div class="container">
+      <div class="ct-hero-content">
+        <h1>Start a thoughtful<br>conversation.</h1>
+        <p>We are intentional about who we serve so we can provide a high level of attention, responsiveness, and care.</p>
+        <p>If you are looking for a long-term advisory relationship, we would welcome an introduction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form + Sidebar -->
+  <section class="ct-main">
+    <div class="ct-main-grid">
+      <div class="ct-form-col">
+        <h2>Send us a message</h2>
+        <p class="ct-form-sub">We'll be in touch within one business day.</p>
+        <form class="ct-form" action="#" method="post">
+          <div class="ct-field">
+            <label for="ct-name">Name</label>
+            <input type="text" id="ct-name" name="name" placeholder="Full name">
+          </div>
+          <div class="ct-field">
+            <label for="ct-email">Email</label>
+            <input type="email" id="ct-email" name="email" placeholder="you@example.com">
+          </div>
+          <div class="ct-field">
+            <label for="ct-phone">Phone</label>
+            <input type="tel" id="ct-phone" name="phone" placeholder="(207) 123-4567">
+          </div>
+          <div class="ct-field">
+            <label for="ct-reason">What brings you here?</label>
+            <select id="ct-reason" name="reason">
+              <option value="" selected>Select an option</option>
+              <option>Transition to retirement</option>
+              <option>Professional services</option>
+              <option>Corporate leadership</option>
+              <option>Multi-generational stewardship</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="ct-field">
+            <label for="ct-message">Message</label>
+            <textarea id="ct-message" name="message" rows="5" placeholder="Tell us a bit about your goals and what's important to you."></textarea>
+          </div>
+          <label class="ct-consent">
+            <input type="checkbox" name="consent">
+            <span>I consent to be contacted by Two Lights Wealth Management.</span>
+          </label>
+          <button type="submit" class="btn btn-gold ct-submit">Send Message</button>
+          <p class="ct-secure-note">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="10" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.5"/><path d="M8 10V7.5a4 4 0 018 0V10" stroke="currentColor" stroke-width="1.5"/></svg>
+            Your information is secure and will never be shared.
+          </p>
+        </form>
+      </div>
+
+      <aside class="ct-side-col">
+        <div class="ct-office">
+          <span class="ct-office-icon">
+            <svg width="30" height="38" viewBox="0 0 32 40"><use href="#lighthouse"/></svg>
+          </span>
+          <div>
+            <h3>Our office</h3>
+            <p>Two Lights Wealth Management<br>One Union Wharf<br>Portland, ME 04101<br>(207) 210-8500</p>
+            <a href="https://maps.google.com/?q=One+Union+Wharf,+Portland,+ME+04101" target="_blank" rel="noopener" class="text-link">View on Map &rarr;</a>
+          </div>
+        </div>
+
+        <div class="ct-expect">
+          <div class="ct-expect-head">
+            <span class="ct-expect-icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                <circle cx="12" cy="11" r="3.4" stroke="#B88A4A" stroke-width="1.3"/>
+                <circle cx="21" cy="12.5" r="2.7" stroke="#B88A4A" stroke-width="1.3"/>
+                <path d="M5 24c0-3.8 2.8-6.4 7-6.4 2.5 0 4.6 1 5.8 2.7M16.5 24.4c.5-3 2.4-4.8 5-4.8 2.4 0 4.3 1.5 4.9 3.9" stroke="#B88A4A" stroke-width="1.3" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>What to expect</h3>
+          </div>
+          <ul class="ct-expect-list">
+            <li>
+              <span class="ct-expect-item-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 20l1.2-4.2L16.6 4.4a1.8 1.8 0 012.5 0l.5.5a1.8 1.8 0 010 2.5L8.2 18.8 4 20z" stroke="#B88A4A" stroke-width="1.3" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <h4>A mutual fit</h4>
+                <p>We want to ensure we are the right fit for you. You should expect the same from us.</p>
+              </div>
+            </li>
+            <li>
+              <span class="ct-expect-item-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-7-9.5C5 7.5 7 5.5 9.5 5.5c1.4 0 2.2.6 2.5 1.2.3-.6 1.1-1.2 2.5-1.2C17 5.5 19 7.5 19 10.5c0 5.1-7 9.5-7 9.5z" stroke="#B88A4A" stroke-width="1.3" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <h4>A thoughtful conversation</h4>
+                <p>We'll learn about your goals, what matters most, and how we may be able to help.</p>
+              </div>
+            </li>
+            <li>
+              <span class="ct-expect-item-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.2 4.2L19 7" stroke="#B88A4A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <h4>Clarity and next steps</h4>
+                <p>If it feels like a good fit, we'll outline a clear path forward&mdash;no pressure, no obligation.</p>
+              </div>
+            </li>
+            <li>
+              <span class="ct-expect-item-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3l8 3.2v5c0 4.7-3 8.4-8 10-5-1.6-8-5.3-8-10v-5L12 3z" stroke="#B88A4A" stroke-width="1.3" stroke-linejoin="round"/><circle cx="12" cy="11.5" r="1.4" stroke="#B88A4A" stroke-width="1.2"/><path d="M12 13v2.5" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/></svg>
+              </span>
+              <div>
+                <h4>Confidential &amp; secure</h4>
+                <p>Your information is handled with the highest level of confidentiality and security.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Depth Not Volume -->
+  <section class="ct-depth">
+    <div class="container">
+      <div class="ct-depth-head">
+        <h2>A relationship built for depth, not volume.</h2>
+        <p>We serve a limited number of families and individuals so we can provide a higher level of attention, responsiveness, and care.</p>
+      </div>
+      <div class="ct-depth-grid">
+        <div class="ct-depth-item">
+          <span class="ct-depth-icon">
+            <svg width="38" height="38" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="13" r="4" stroke="#B88A4A" stroke-width="1.3"/>
+              <circle cx="14" cy="17" r="3.5" stroke="#B88A4A" stroke-width="1.3"/>
+              <circle cx="34" cy="17" r="3.5" stroke="#B88A4A" stroke-width="1.3"/>
+              <path d="M17 30a7 7 0 0114 0M8 32a6 6 0 0110-4.5M40 32a6 6 0 00-10-4.5" stroke="#B88A4A" stroke-width="1.3" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <h3>Selective by design</h3>
+          <p>We focus on a limited number of relationships to deliver exceptional service.</p>
+        </div>
+        <div class="ct-depth-item">
+          <span class="ct-depth-icon">
+            <svg width="38" height="38" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="16" stroke="#B88A4A" stroke-width="1.3"/>
+              <path d="M30.5 17.5l-4.2 9.3-9.3 4.2 4.2-9.3 9.3-4.2z" stroke="#B88A4A" stroke-width="1.3" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3>Long-term perspective</h3>
+          <p>We build strategies designed to support your goals through every stage of life.</p>
+        </div>
+        <div class="ct-depth-item">
+          <span class="ct-depth-icon">
+            <svg width="38" height="38" viewBox="0 0 48 48" fill="none">
+              <path d="M6 20l8-4 9 4.5a3 3 0 011.6 2.7v.3l8.4-4.5 9 4.5" stroke="#B88A4A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 2)"/>
+              <path d="M14 26l6 5a3.5 3.5 0 004.6.1L33 24M19 31l3.5 3a3 3 0 003.9.1l1.1-.9" stroke="#B88A4A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3>Proactive partnership</h3>
+          <p>We anticipate what's ahead so you can move forward with confidence and clarity.</p>
+        </div>
+        <div class="ct-depth-item">
+          <span class="ct-depth-icon">
+            <svg width="38" height="38" viewBox="0 0 48 48" fill="none">
+              <path d="M24 38s-13-8-13-17.5C11 14.5 14.6 11 19 11c2.4 0 4.2 1.1 5 2.2.8-1.1 2.6-2.2 5-2.2 4.4 0 8 3.5 8 9.5C37 30 24 38 24 38z" stroke="#B88A4A" stroke-width="1.3" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3>Human-first approach</h3>
+          <p>You'll work with a team that values relationships as much as results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tagline Band -->
+  <section class="tagline-band">
+    <div class="container">
+      <p>Thoughtful advice. Personal relationships. Lasting impact.</p>
+      <span class="tagline-rule" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <svg class="logo-icon" width="24" height="30"><use href="#lighthouse"/></svg>
+          <span class="footer-text">
+            <span class="footer-brand">TWO LIGHTS</span>
+            <span class="footer-tagline">WEALTH MANAGEMENT</span>
+          </span>
+        </div>
+        <p class="footer-address">One Union Wharf&nbsp;&nbsp;|&nbsp;&nbsp;Portland, ME 04101&nbsp;&nbsp;|&nbsp;&nbsp;(207) 210-8500</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Disclosures</a>
+          <a href="#">Form CRS</a>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2024 Two Lights Wealth Management. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Experience — Two Lights Wealth Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+  <!-- ===== Lighthouse logo (reusable) — referenced via <use> ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="lighthouse" viewBox="0 0 32 40">
+      <path d="M13 13h6l1.4 21h-8.8L13 13z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M13 19h6M12.4 25h7.2M11.8 31h8.4" stroke="currentColor" stroke-width="1.1"/>
+      <path d="M12.4 13l1.2-3.4h4.8L19.6 13z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+      <rect x="13.6" y="5.4" width="4.8" height="4.2" fill="none" stroke="currentColor" stroke-width="1.3"/>
+      <path d="M14.6 5.4h2.8l-.6-2.2h-1.6l-.6 2.2z" fill="currentColor"/>
+      <path d="M13.6 7.5l-3 1.4M18.4 7.5l3 1.4" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+      <path d="M9 34.5h14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg class="logo-icon" width="26" height="32"><use href="#lighthouse"/></svg>
+        <span class="logo-text">
+          <span class="logo-name">TWO LIGHTS</span>
+          <span class="logo-tagline">WEALTH MANAGEMENT</span>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="who-we-serve.html">Who We Serve</a></li>
+        <li><a href="experience.html" class="active">The Experience</a></li>
+        <li><a href="signal-noise.html">Signal &amp; Noise</a></li>
+        <li><a href="team.html">Team &amp; Partners</a></li>
+        <li><a href="client-access.html">Client Access</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Let's Connect</a>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="xp-hero">
+    <div class="container">
+      <div class="xp-hero-content">
+        <h1>A planning process built around listening, clarity, and follow-through.</h1>
+        <span class="xp-rule" aria-hidden="true"></span>
+        <p class="xp-hero-body">Before we talk about numbers, we listen.<br>
+        Our process is structured, but never mechanical.<br>
+        The goal is simple: to help you feel organized, informed, and confident about your financial life.</p>
+        <p class="xp-hero-tagline">Our experience matters.<br>Your experience matters more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Financial Planning Process -->
+  <section class="xp-process" id="process">
+    <div class="container">
+      <div class="xp-process-head">
+        <h2>The Two Lights Financial Planning Process</h2>
+        <span class="xp-divider" aria-hidden="true"></span>
+      </div>
+      <ol class="xp-steps">
+        <li class="xp-step">
+          <div class="xp-step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <circle cx="9" cy="8.5" r="2.6" stroke="#B88A4A" stroke-width="1.2"/>
+              <circle cx="15.5" cy="9.5" r="2.1" stroke="#B88A4A" stroke-width="1.2"/>
+              <path d="M4.5 18c0-2.8 2-4.6 4.5-4.6s4.5 1.8 4.5 4.6M14.5 17.6c.4-2.2 1.8-3.6 3.7-3.6 1.4 0 2.6.7 3.3 1.9" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="xp-step-num">1</span>
+          <h3>Discovery</h3>
+          <p>We start with what matters most to you. Your goals, your priorities, your story.</p>
+        </li>
+        <li class="xp-step">
+          <div class="xp-step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <rect x="6" y="4.5" width="12" height="16" rx="1.5" stroke="#B88A4A" stroke-width="1.2"/>
+              <path d="M9.5 4.5V3h5v1.5" stroke="#B88A4A" stroke-width="1.2" stroke-linejoin="round"/>
+              <path d="M9 10h6M9 13h6M9 16h3.5" stroke="#B88A4A" stroke-width="1.1" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="xp-step-num">2</span>
+          <h3>Data Gathering</h3>
+          <p>We collect and organize key financial information to understand your full picture.</p>
+        </li>
+        <li class="xp-step">
+          <div class="xp-step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <path d="M4 7.5h16M4 12h16M4 16.5h16" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+              <circle cx="9.5" cy="7.5" r="1.8" fill="#fff" stroke="#B88A4A" stroke-width="1.2"/>
+              <circle cx="15" cy="12" r="1.8" fill="#fff" stroke="#B88A4A" stroke-width="1.2"/>
+              <circle cx="8" cy="16.5" r="1.8" fill="#fff" stroke="#B88A4A" stroke-width="1.2"/>
+            </svg>
+          </div>
+          <span class="xp-step-num">3</span>
+          <h3>Fine-Tuning</h3>
+          <p>We refine assumptions and stress-test scenarios to align the plan with your goals.</p>
+        </li>
+        <li class="xp-step">
+          <div class="xp-step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <path d="M6 3.5h9l3.5 3.5v13.5H6V3.5z" stroke="#B88A4A" stroke-width="1.2" stroke-linejoin="round"/>
+              <path d="M15 3.5V7h3.5" stroke="#B88A4A" stroke-width="1.2" stroke-linejoin="round"/>
+              <circle cx="11" cy="12.5" r="2.6" stroke="#B88A4A" stroke-width="1.2"/>
+              <path d="M13 14.5l2.4 2.4" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="xp-step-num">4</span>
+          <h3>Document Analysis</h3>
+          <p>We review existing accounts, policies, and holdings for alignment and gaps.</p>
+        </li>
+        <li class="xp-step">
+          <div class="xp-step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="7.5" r="2.4" stroke="#B88A4A" stroke-width="1.2"/>
+              <circle cx="6.5" cy="9.5" r="2" stroke="#B88A4A" stroke-width="1.2"/>
+              <circle cx="17.5" cy="9.5" r="2" stroke="#B88A4A" stroke-width="1.2"/>
+              <path d="M8.5 18.5c0-2.4 1.5-4 3.5-4s3.5 1.6 3.5 4M3.5 19c0-2 1.2-3.4 3-3.4.6 0 1.2.2 1.7.5M20.5 19c0-2-1.2-3.4-3-3.4-.6 0-1.2.2-1.7.5" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="xp-step-num">5</span>
+          <h3>Strategy /<br>First Working Meeting</h3>
+          <p>We walk you through our recommendations and collaborate on the right path forward.</p>
+        </li>
+        <li class="xp-step">
+          <div class="xp-step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="8.5" stroke="#B88A4A" stroke-width="1.2"/>
+              <path d="M8.2 12.2l2.6 2.6 5-5.4" stroke="#B88A4A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="xp-step-num">6</span>
+          <h3>Summary +<br>Implementation</h3>
+          <p>We finalize the plan and coordinate implementation with care and precision.</p>
+        </li>
+        <li class="xp-step">
+          <div class="xp-step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <path d="M19.5 12a7.5 7.5 0 11-2.2-5.3" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M17.6 3.6l-.2 3.3 3.2-.4" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="xp-step-num">7</span>
+          <h3>Ongoing Oversight</h3>
+          <p>We monitor, review, and adapt the plan as your life and the world evolve.</p>
+        </li>
+      </ol>
+      <p class="xp-process-tagline">A thoughtful process. A customized plan. A trusted partnership.</p>
+    </div>
+  </section>
+
+  <!-- How the Plan Comes to Life -->
+  <section class="xp-pillars" id="plan">
+    <div class="container">
+      <div class="xp-pillars-head">
+        <h2>How the plan comes to life</h2>
+        <span class="xp-divider xp-divider--center" aria-hidden="true"></span>
+      </div>
+      <div class="xp-pillar-grid">
+        <div class="xp-pillar">
+          <div class="xp-pillar-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M9 30h4v-7H9v7zM16 30h4V16h-4v14zM23 30h4V20h-4v10z" stroke="#B88A4A" stroke-width="1.2" stroke-linejoin="round"/>
+              <path d="M10 14l8-5 5 3 8-6" stroke="#B88A4A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M27 6h4v4" stroke="#B88A4A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Wealth Building</h3>
+          <p>We design strategies to grow your wealth with discipline, diversification, and a long-term mindset.</p>
+          <a href="#" class="xp-pillar-link" aria-label="Learn more about Wealth Building">&rarr;</a>
+        </div>
+        <div class="xp-pillar">
+          <div class="xp-pillar-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M20 5l11 4v8c0 7.2-4.6 12.8-11 15-6.4-2.2-11-7.8-11-15V9l11-4z" stroke="#B88A4A" stroke-width="1.3" stroke-linejoin="round"/>
+              <path d="M15.5 19.5l3.2 3.2 6-6.5" stroke="#B88A4A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Protection &amp; Risk Planning</h3>
+          <p>We help safeguard what you've built with insurance, risk management, and contingency planning.</p>
+          <a href="#" class="xp-pillar-link" aria-label="Learn more about Protection and Risk Planning">&rarr;</a>
+        </div>
+        <div class="xp-pillar">
+          <div class="xp-pillar-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M13 8v14M17.5 8v14M22 8v14M26.5 8v14" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M11 10c2.6-1.6 6-2.4 9-2.4s6.4.8 9 2.4M10 22h20M12 22l-2 11M28 22l2 11M11 27.5h18" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Retirement Income Planning</h3>
+          <p>We create sustainable income strategies to help you live with confidence in retirement.</p>
+          <a href="#" class="xp-pillar-link" aria-label="Learn more about Retirement Income Planning">&rarr;</a>
+        </div>
+        <div class="xp-pillar">
+          <div class="xp-pillar-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M8 32C14 26 24 14 32 8" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M14 26c-3 0-5.5-1.5-6.5-4 2.5-1 5.5-.5 7.5 1.5M19 21c-2.5-.5-4.5-2.5-5-5.5 3-.2 5.5 1 6.5 3.5M24 16c-2-1-3.5-3-3.5-6 2.8.3 4.8 2 5.3 4.5M28.5 11.5c-1-1.5-1.5-3.5-1-6 2.4.8 3.8 2.6 4 5" stroke="#B88A4A" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Legacy &amp; Transfer Planning</h3>
+          <p>We help you plan thoughtful transitions that reflect your values and support the people you love.</p>
+          <a href="#" class="xp-pillar-link" aria-label="Learn more about Legacy and Transfer Planning">&rarr;</a>
+        </div>
+        <div class="xp-pillar">
+          <div class="xp-pillar-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="11" r="3.4" stroke="#B88A4A" stroke-width="1.2"/>
+              <circle cx="11.5" cy="14.5" r="2.8" stroke="#B88A4A" stroke-width="1.2"/>
+              <circle cx="28.5" cy="14.5" r="2.8" stroke="#B88A4A" stroke-width="1.2"/>
+              <path d="M14 26.5c0-3.5 2.6-6 6-6s6 2.5 6 6M6.5 28c0-3 2-5.2 4.8-5.2 1 0 1.9.3 2.7.8M33.5 28c0-3-2-5.2-4.8-5.2-1 0-1.9.3-2.7.8" stroke="#B88A4A" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Family Stewardship</h3>
+          <p>We partner with families across generations to foster communication, alignment, and purpose.</p>
+          <a href="#" class="xp-pillar-link" aria-label="Learn more about Family Stewardship">&rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A Plan That Evolves CTA -->
+  <section class="xp-cta" id="contact">
+    <div class="container">
+      <div class="xp-cta-content">
+        <span class="section-eyebrow">A PLAN THAT EVOLVES</span>
+        <h2>A living framework<br>for a life in motion.</h2>
+        <p>Your life isn't static&mdash;and neither is your plan. We stay beside you to anticipate change, seize opportunities, and keep you on course.</p>
+        <a href="contact.html" class="btn btn-outline-gold">Let's Start the Conversation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <svg class="logo-icon" width="24" height="30"><use href="#lighthouse"/></svg>
+          <span class="footer-text">
+            <span class="footer-brand">TWO LIGHTS</span>
+            <span class="footer-tagline">WEALTH MANAGEMENT</span>
+          </span>
+        </div>
+        <p class="footer-address">One Union Wharf&nbsp;&nbsp;|&nbsp;&nbsp;Portland, ME 04101&nbsp;&nbsp;|&nbsp;&nbsp;(207) 210-8500</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Disclosures</a>
+          <a href="#">Form CRS</a>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2024 Two Lights Wealth Management. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
