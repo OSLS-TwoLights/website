@@ -9,7 +9,14 @@
       "Bash(ls /c/Python*)",
       "Read(//c/Program Files/**)",
       "Bash(\\\\.png\" | head -30)",
-      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\AhmedNashwan\\\\Downloads\\\\Two Lights Private Wealth_files\" | Where-Object { $_.Extension -match \"jpg|png\" } | Select-Object Name)"
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\AhmedNashwan\\\\Downloads\\\\Two Lights Private Wealth_files\" | Where-Object { $_.Extension -match \"jpg|png\" } | Select-Object Name)",
+      "Bash(pandoc \"C:\\\\Users\\\\AhmedNashwan\\\\Downloads\\\\TLPW new website\\\\Vetted Language.docx\" -t markdown)",
+      "Bash(pandoc \"C:\\\\Users\\\\AhmedNashwan\\\\Downloads\\\\TLPW new website\\\\Web Designer Notes.docx\" -t markdown)",
+      "Bash(sed -n '234,250p' \"C:/Users/AhmedNashwan/Downloads/TLPW WEBSITE 2.0/experience.html\")",
+      "Bash(sed -n '60,115p' \"C:/Users/AhmedNashwan/Downloads/TLPW WEBSITE 2.0/who-we-serve.html\")",
+      "PowerShell(Get-Command python -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Command npx -ErrorAction SilentlyContinue)",
+      "WebFetch(domain:twolights.com)"
     ]
   }
 }
